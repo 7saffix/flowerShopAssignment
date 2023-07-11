@@ -12,8 +12,7 @@ header {
     background-color: rgba(229, 84, 115, 0.10);
 }
 .header-banner{
-    width: 85%;
-    margin: auto;
+    margin: 0 100px;
     display: flex;
     align-items: center;
     padding-top:30px;
@@ -55,10 +54,12 @@ header {
 /* main section  */
 /* featured section style */
 .feature-section{
-    width: 78%;
+    /* width: 78%;
     margin: auto;
     text-align: center;
-    padding-top:100px;
+    padding-top:100px; */
+    text-align: center;
+    margin :100px;
 }
 .feature-section h1{
     color: #272727;   
@@ -73,10 +74,11 @@ header {
 }
 .featured-flower{
     display: flex;
+    justify-content: center;
 }
 .featured-flower .card-img{
     background-color: #E55473;
-    margin:25px 10px;
+    margin:10px;
     align-items: center;
     border-top-left-radius:48%;
     border-top-right-radius:48%;
@@ -151,7 +153,7 @@ header {
 /* instagram section style  */
 .instagram-section{
     text-align: center;
-    margin :100px 100px;
+    margin :100px;
 }
 .instagram-section h1{
     color: #272727;
