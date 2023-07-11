@@ -62,7 +62,7 @@ header {
     text-align: center;
     padding-top:100px;
 }
-.feature-section h3{
+.feature-section h1{
     color: #272727;   
     font-size:35px;
     font-weight: 800;
@@ -122,7 +122,7 @@ header {
     text-align: center;
     margin-right: 50px;
 }
-.hot-deal-left h3{
+.hot-deal-left h1{
     color: #272727;
     font-size: 30px;
     font-weight: 800;  
@@ -149,4 +149,24 @@ header {
 .hot-deal-right img{
     width: 250px;
     height: 330px;
+}
+/* instagram section style  */
+.instagram-section{
+    text-align: center;
+    margin :100px 100px;
+}
+.instagram-section h1{
+    color: #272727;
+    font-size: 30px;
+}
+.instagram-section p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 25px;
+    padding: 20px 200px;
+}
+.instagram-cards img{
+    width:230px;
+    height: 300px;
+    padding: 10px;
 }
