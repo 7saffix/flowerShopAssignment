@@ -111,3 +111,42 @@ header {
     padding: 50px;
     text-align: center;
 }
+/* hot deal section style  */
+.hot-deal-section{
+    display: flex;
+    align-items: center;
+    padding:50px 200px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-section .hot-deal-left{
+    text-align: center;
+    margin-right: 50px;
+}
+.hot-deal-left h3{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;  
+}
+.hot-deal-left span{
+    color:#E55473;
+}
+.hot-deal-left p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height:25px;
+    padding: 20px 50px;
+}
+.hot-deal-left button{
+    padding: 12px 17px;
+    border: 0;
+    border-radius:5px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.hot-deal-right img{
+    width: 250px;
+    height: 330px;
+}
