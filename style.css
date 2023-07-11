@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 /* common style  */
 * {
@@ -34,7 +34,6 @@ header {
     color: rgba(39, 39, 39, 0.60);
     margin: 10px 0;
     font-size: 15px;
-    font-weight: 400;
     line-height: 25px;
 }
 
@@ -45,7 +44,6 @@ header {
     background: #E55473;
     color: #FFF;
     font-size: 16px;
-    font-weight: 700;
 }
 
 /* header right side style  */
@@ -158,6 +156,7 @@ header {
 .instagram-section h1{
     color: #272727;
     font-size: 30px;
+    font-weight: 800;
 }
 .instagram-section p{
     color: rgba(39, 39, 39, 0.60);
@@ -204,4 +203,20 @@ header {
     border-radius: 5px;
     background: #E55473;
 
+}
+
+/* footer style  */
+.footer{
+    text-align: center;
+    background-color: #111010;
+    color: white;
+    padding: 100px 150px;
+}
+.footer span{
+    color: #E55473;
+}
+.footer p{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    padding: 20px 150px;
 }
