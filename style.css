@@ -95,7 +95,19 @@ header {
 .card small{
     color: #272727;
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     text-decoration: underline;
+}
+
+/* facility section style  */
+.facility-section{
+    display: flex;
+    justify-content:center;
+    margin :100px 150px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+.facility-section .facilities{
+    padding: 50px;
+    text-align: center;
 }
